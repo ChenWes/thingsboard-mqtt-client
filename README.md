@@ -76,3 +76,15 @@ while True:
     sleep(5)
 
 ```
+
+
+## Docker
+build docker image
+```
+docker build -t thingsboard-mqtt-client .
+```
+
+run docker container
+```
+docker run -it thingsboard-mqtt-client
+```
